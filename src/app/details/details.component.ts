@@ -12,6 +12,19 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './details.component.scss'
 })
 export class DetailsComponent {
+resetFilter() {
+throw new Error('Method not implemented.');
+}
+applyFilter() {
+throw new Error('Method not implemented.');
+}
+priceRange: any;
+minPrice: any;
+maxPrice: any;
+roomType: any;
+checkIn: any;
+checkOut: any;
+guests: any;
   constructor(private router : ActivatedRoute, private api : ApiService){
     this.router.params.subscribe(data => {
       console.log(data['id'])

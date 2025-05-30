@@ -1,9 +1,6 @@
 
 
-
-
-
-<main>
+<!-- <main>
     <div class="left">
     
 <div class="card" style="width: 18rem;" >
@@ -35,14 +32,80 @@
         <input type="text" [(ngModel)]="customerId">
         <input type="text" [(ngModel)]="customerPhone">
         <button (click)="book()" >Book</button>
-      <!-- 
-  "checkInDate": "2025-05-17T12:40:49.812Z",
-  "checkOutDate": "2025-05-17T12:40:49.812Z",
-  "customerName": "string",
-  "customerId": "string",
-  "customerPhone": "string" -->
+  
 
 
     
 </div>
-</main>
+</main> -->
+
+
+<div class="room-container">
+  <!-- Room Image -->
+  <div class="room-image">
+    <img src="https://images.trvl-media.com/lodging/16000000/15840000/15835100/15835033/7aac5bc6.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" alt="Room Image" />
+    <!-- Add carousel logic if needed -->
+  </div>
+
+  <!-- Reservation Card -->
+  <div class="reservation-card" style="background-color: rgb(186, 226, 242);  width: 500px;">
+    <h3>Reservation</h3>
+    <div class="room-price">
+      <span>Deluxe Twin Room</span>
+      <span class="price">€ 299,- <small>a night</small></span>
+    </div>
+
+    <label>Check-in <i>🛈</i></label>
+    <input type="date" />
+
+    <label>Check-out <i>🛈</i></label>
+    <input type="date" />
+
+    <label>Customer Name</label>
+    <input type="text" placeholder="Please enter your name" />
+
+    <label>Customer Tel:Phone</label>
+    <input type="text" placeholder="Please enter your phone number" />
+
+    <button class="book-btn">BOOK NOW</button>
+  </div>
+</div>
+
+<!-- Room Details and Overview -->
+<div class="info-section" style="background-color: white;" >
+  <div class="room-details">
+    <h3>Room Details</h3>
+    <div class="details-table">
+      <ul>
+        <li>💠 Double Bed</li>
+        <li>💠 60 square meter</li>
+        <li>💠 Double Bed</li>
+        <li>💠 Private Balcony</li>
+      </ul>
+      <ul>
+        <li>💠 Free Internet</li>
+        <li>💠 Beach view</li>
+        <li>💠 Free Internet</li>
+        <li>💠 Flat Screen TV</li>
+      </ul>
+      <ul>
+        <li>💠 Free Newspaper</li>
+        <li>💠 2 persons</li>
+        <li>💠 Breakfast included</li>
+        <li>💠 Jacuzzi</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="overview">
+    <h3>Overview</h3>
+    <div class="tabs">
+      <button class="active">Overview</button>
+      <button>Facilities</button>
+      <button>Extra</button>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum eleifend augue, quis rhoncus purus fermentum in...
+    </p>
+  </div>
+</div>

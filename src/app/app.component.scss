@@ -1,14 +1,22 @@
 main{
     background-color: lightblue;
-    
+    background-image: url(https://hotelbooking.stepprojects.ge/images/slides/slide-bg.jpg);
+    min-height: 100vh; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
+
 footer{
-    background-color: lightblue;
+    animation: alternate;
 }
 
 
 header{
+    
     background-color: lightblue;
+     background-image: url(https://hotelbooking.stepprojects.ge/images/slides/slide-bg.jpg);
 }
 

@@ -7,7 +7,7 @@ import { CardComponent } from "../card/card.component";
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterModule, ButtonComponent, CardComponent],
+  imports: [RouterModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
